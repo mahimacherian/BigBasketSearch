@@ -1,0 +1,46 @@
+<dependencies>
+
+        <!-- Core selenium jars -->
+        <dependency>
+    		<groupId>org.seleniumhq.selenium</groupId>
+   			<artifactId>selenium-remote-driver</artifactId>
+    		<version>3.6.0</version>
+		</dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>2.48.2</version>
+        </dependency>
+<!-- Firefox driver jar -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-firefox-driver</artifactId>
+            <version>2.48.2</version>
+        </dependency>
+<!-- Selenium IE driver -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-ie-driver</artifactId>
+            <version>2.42.0</version>
+        </dependency>
+<!-- Selenium Chrome driver -->
+        <dependency>
+<groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>2.42.0</version>
+        </dependency>
+<!-- TestNG dependency configuration -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.8</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- http://mvnrepository.com/artifact/io.appium/java-client -->
+               <dependency>
+                  <groupId>io.appium</groupId>
+                 <artifactId>java-client</artifactId>
+                <version>2.1.0</version>
+                </dependency>
+     
+    </dependencies>
